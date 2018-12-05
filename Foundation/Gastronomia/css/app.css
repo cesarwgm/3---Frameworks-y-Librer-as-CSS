@@ -102,3 +102,33 @@ form #search {
 		0px 5px #bbb,
 		0px 8px 10px rgba(0, 0, 0, 0.5);
 }
+
+footer{
+    border-radius: 0 0 10px 10px;
+    /*display: flex;
+    flex-flow: column wrap; */
+
+  }
+  footer ul{
+    width: 80%;
+    margin: 10%;
+  }
+  footer ul li{
+    list-style: none;
+    font-size: 12px;
+    
+  }
+  footer ul li a{
+    list-style: none;
+    font-size: 14px;
+    /* color: #0c907d; */
+
+  }
+  footer ul li:nth-of-type(1){
+    font-size: 20px;
+    font-weight: bold;
+    color: #0c907d; /* color del titulo en el footer */
+  }
+footer li img{
+	width: 15%;
+}
