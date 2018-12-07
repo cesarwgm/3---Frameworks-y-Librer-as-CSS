@@ -9,6 +9,7 @@
 }
 .fullheighleft{
 	height: 75vh;
+	background: rgba(0,0,0,0.3);
 }
 .fullheighcenter{
 	height: 75vh;
@@ -31,23 +32,89 @@ section img{
 	margin:auto;
 
 }
- html, body {
+
+h4 {
+	font-size: 1.6em;
+	margin: 0.67em 0;
+	color: #fff;
+}
+
+h5 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  color: #fff;
+  background: rgba(0,0,0,0.3);
+}
+
+h5:hover {
+  color: #fff;
+  background: rgba(0,0,0,0.3);
+}
+
+p {
+  font-size: 1em;
+  margin: 0.67em 0;
+  color: #fff;
+  background: rgba(0,0,0,0.3);
+}
+
+.card-reveal p{
+	color: #000;
+}
+
+html, body {
         
         height:100%;
         width:100%;
         position: absolute;
 }
 
+
 body{
-	background-image: url('../imgs/cartagena_colombia_bocagrande-beach-columbiatravelguide-dot-net.jpg') no-repeat fixed center center;  
+	background-image: url('../imgs/nocturna.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;  
     background-size:cover;
+}
+
+.barrasocial img{
+	width: 100%;
+}
+.barrasocial{
+	padding: 20px 0px 20px 0px;
+	align-items: center;
 }
 section img{
 	width: 40%;
+}
+section{
+	margin: 0px;
+	padding: 10px;
 }
 .articulos img{
 	width: 100%;
 }
 .sectionimg{
 	width: 40%;
+}
+
+.redessoc img{
+	width: 10%;
+
+}
+
+.redessoc li{
+	font-size: 1.5em;
+  	margin: 0.67em 0;
+  	color: #fff;
+  	background: rgba(0,0,0,0.3);
+
+}
+.contacto, .derechos{
+	text-align: center; 
+	font-size: 1.2em;
+  	margin: 0.67em 0;
+  	color: #fff;
+  	background: rgba(0,0,0,0.3);
 }
