@@ -1,4 +1,53 @@
 *{
+	margin: 0px;
+	padding: 0px;
 
 	
+}
+.heighheader{
+	height: 30vh;
+}
+.fullheighleft{
+	height: 75vh;
+}
+.fullheighcenter{
+	height: 75vh;
+}
+.fullheighright{
+	height: 75vh;
+}
+.heighfooter{
+	height: 30vh;
+}
+.heighimgizq{
+	height: 25vh;
+}
+.fullheighright{
+	height: 25vh;
+}
+section img{
+	width: 80%;
+	display:block;
+	margin:auto;
+
+}
+ html, body {
+        
+        height:100%;
+        width:100%;
+        position: absolute;
+}
+
+body{
+	background-image: url('../imgs/cartagena_colombia_bocagrande-beach-columbiatravelguide-dot-net.jpg') no-repeat fixed center center;  
+    background-size:cover;
+}
+section img{
+	width: 40%;
+}
+.articulos img{
+	width: 100%;
+}
+.sectionimg{
+	width: 40%;
 }
