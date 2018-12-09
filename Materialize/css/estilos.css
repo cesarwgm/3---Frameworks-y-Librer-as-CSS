@@ -1,74 +1,3 @@
-*{
-	margin: 0px;
-	padding: 0px;
-
-	
-}
-.heighheader{
-	height: 30vh;
-}
-.fullheighleft{
-	height: 75vh;
-	background: rgba(0,0,0,0.3);
-}
-.fullheighcenter{
-	height: 75vh;
-}
-.fullheighright{
-	height: 75vh;
-}
-.heighfooter{
-	height: 30vh;
-}
-.heighimgizq{
-	height: 25vh;
-}
-.fullheighright{
-	height: 25vh;
-}
-section img{
-	width: 80%;
-	display:block;
-	margin:auto;
-
-}
-
-h4 {
-	font-size: 1.6em;
-	margin: 0.67em 0;
-	color: #fff;
-}
-
-h5 {
-  font-size: 2em;
-  margin: 0.67em 0;
-  color: #fff;
-  background: rgba(0,0,0,0.3);
-}
-
-h5:hover {
-  color: #fff;
-  background: rgba(0,0,0,0.3);
-}
-
-p {
-  font-size: 1em;
-  margin: 0.67em 0;
-  color: #fff;
-  background: rgba(0,0,0,0.3);
-}
-
-.card-reveal p{
-	color: #000;
-}
-
-html, body {
-        
-        height:100%;
-        width:100%;
-        position: absolute;
-}
-
 
 body{
 	background-image: url('../imgs/nocturna.jpg');
@@ -77,44 +6,105 @@ body{
 	background-position: center;  
     background-size:cover;
 }
+nav {
+  color: #fff;
+  width: 100%;
+  height: auto;
+  line-height: 56px;
+  background-color: rgba(0,0,0,0.1);
+}
+
+	
+
+.nav-wrapper img{
+	width: 20%;
+
+}
 
 .barrasocial img{
-	width: 100%;
+	width: 50%;
 }
-.barrasocial{
-	padding: 20px 0px 20px 0px;
-	align-items: center;
-}
-section img{
+
+.logo img{
 	width: 40%;
 }
-section{
-	margin: 0px;
-	padding: 10px;
+.logo h4{
+	font-size: 1.3em;
+	margin: 0.67em 0;
+	color: #fff;
+}
+
+.section-izq img{
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.section-der img{
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.section-izq h5{
+	color: #fff;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.section-der h5{
+	color: #fff;
+	background-color: rgba(0,0,0,0.3);
 }
 .articulos img{
 	width: 100%;
+	background-color: rgba(0,0,0,0.3);
 }
-.sectionimg{
-	width: 40%;
+.sectionimg img{
+	width: 30%;
 }
 
 .redessoc img{
 	width: 10%;
-
 }
 
+.articulos h5{
+	color: #fff;
+	background-color: rgba(0,0,0,0.3);
+}
+.articulos p{
+	color: #fff;
+	font-size: 1.1em;
+	background-color: rgba(0,0,0,0.3);
+}
+
+footer{
+	background-color: rgba(0,0,0,0.3);
+}
+
+.heighfooter{
+	height: 170px;
+	background-color: rgba(2,2,10,0.5);
+
+}
+.contacto{
+	background-color: rgba(2,2,10,0.5);
+
+}
+.contacto li{
+	color: #fff;
+}
+
+.redessoc{
+	background-color: rgba(2,2,10,0.5);
+
+}
 .redessoc li{
-	font-size: 1.5em;
-  	margin: 0.67em 0;
-  	color: #fff;
-  	background: rgba(0,0,0,0.3);
+	color: #fff;
+}
+
+.derechos{
+	background-color: rgba(2,2,10,0.5);
 
 }
-.contacto, .derechos{
+.derechos li{
 	text-align: center; 
-	font-size: 1.2em;
-  	margin: 0.67em 0;
-  	color: #fff;
-  	background: rgba(0,0,0,0.3);
+	color: #fff;
 }
